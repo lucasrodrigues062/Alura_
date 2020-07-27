@@ -1,0 +1,21 @@
+
+Otimização na WEB
+	Módulo 1
+		1 - Minimificação (ver software glup)
+		2 - Usar Gzip no lado do servidor (ver mais sobre brotli)
+	Módulo 2
+		1 - Redimensionar imagens, para o tamanho necessário
+		2 - Remover metadados das fotos (kraken.io)
+		3 - Redução de imagens com perdas e sem perdas (Analisar qual o melhor)
+		4 - Otimização de SVG, retirando metadados (SVG é um arquivo xml)
+		5 - Procurar por RIOT (app para automatizar otimização de imagens)
+	Módulo 3
+		1 - Subir site no app engine do google cloud (free)
+		2 - Utilizar sites de WebPageTest para analisar a performance
+	Módulo 4
+		1 - Para diminuir o número de requisições, agrupamos todo CSS em um único arquivo
+		2 - Utilizando o Gulp e seus plugin, conseguimod deixar todo CSS em única linha
+		3 - Fazendo isso diminuimos o tempo entre os request's (Latência)
+		4 - Pontos negativos, temos problema de cache, pelo fato de ser um único arquivo, o cache do navegador vai ser baixado novamente, sempre que alterado.
+		5 - Caso tenhamos muitas páginas, talvez outras páginas, baixem arquivos desnecessários para o funcionamento.
+		6 - A concatenação do CSS pode também ser feita para os arquivos JavaScript
