@@ -1,0 +1,8 @@
+
+	Módulo 1
+		1 - Destravar o Critical Path. Para isso, colocamos o CSS no HEAD (Vai ser carregado Primeiro) e o JS (No fim da página)
+	Módulo 2
+		1 -	Utilizar o recurso "Async" do HTML, informa ao navegador que ele não precisa baixar todo JS de uma vez, e começa a fazer de maneira Assíncrona
+	Módulo 3
+		1 - Podemos colocar um SETTIMEOUT em um iframe, para carregar só depois da pagina completa, para isso colocamos o iframe dentro do JS
+		2 - Lazy Load, é a tecnica de só carregar uma imagem, quando o usuário for dando scroll na página

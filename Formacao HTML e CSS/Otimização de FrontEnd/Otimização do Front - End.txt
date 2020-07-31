@@ -19,3 +19,15 @@ Otimização na WEB
 		4 - Pontos negativos, temos problema de cache, pelo fato de ser um único arquivo, o cache do navegador vai ser baixado novamente, sempre que alterado.
 		5 - Caso tenhamos muitas páginas, talvez outras páginas, baixem arquivos desnecessários para o funcionamento.
 		6 - A concatenação do CSS pode também ser feita para os arquivos JavaScript
+	Módulo 5
+		1 - Utilizar Sprites (Compilar várias imagens e ícones em um só arquivo e no CSS, posicionamos, para ver somente parte do arquivo)
+	Módulo 6
+		1 - Utilizar JavaScript Inline (Gulp faz de maneira automática)
+		2 - Utilizar SVG Inline (dentro do HTML)
+		3 - Sempre manter o HTML com um tamanho menor ou igual o MTU
+	Módulo 7
+		1 - Utilizar outro HostName (Dominio ou subdominio) para fazer o servidor baixar arquivos ultrapassando o limite de 6 request
+	Módulo 8
+		1 - Utilizar o recurso "Expires" no servidor, isso permite ao cliente (Navegador) a guardar cache daquele conteúdo
+		2 - "Expires" pode ser configurado para cachear somente arquivos especificos taisc como CSS
+		3 - Pode-se colocar um longo cache no servidor e quando precisarmos atualizar, damos "Reaname" nos aqrquivos
